@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1199px)" href="smallstyle.css">
+
+    <script src="https://kit.fontawesome.com/91264bb47f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="dropdown dropbtn"><a href="index.html">Home</a></div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="tutorials.html">Tutorials</a></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="boiling.html">Boiling</a>
+                <a href="cutting-vegetables.html">Cutting Vegetables</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="recipes.html">Recipes</a></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="soup.html">Tomato Soup</a>
+                <a href="wrap.html">Sandwich Wrap</a>
+            </div>
+        </div>
+        <div class="dropdown dropbtn"><a href="submit.html">Submit</a></div>
+    </div>
+
+    <div class="book-cover">
+        <div class="bindercontainer">
+            <img src="binder.png" alt="" id="binder-index-html">
+        </div>
+        <div class="page">
+            <div class="onepage pages" id="tutorials" style="background-color: #555B6E; border-radius:10px 5px 5px 10px;">
+                <h1>Tutorials</h1>
+                <a href="tutorials.html">
+                    <div class="down-chevron down-chevron-left"><i class="fa-solid fa-chevron-down"></i></div>
+                </a>
+            </div>
+            <div class="twopage pages" id="recipes" style="background-color: #89B0AE; border-radius:5px 10px 10px 5px;">
+                <h1>Recipes</h1>
+                <a href="recipes.html">
+                    <div class="down-chevron down-chevron-right"><i class="fa-solid fa-chevron-down"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
